@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans SC', serif;
+    background-color: #f6d4b7;
+    color: #000;
+    line-height: 1.6;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-nav {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.hero-nav a {
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 400;
+     text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+        letter-spacing: 0.05em;
+        transition: all 0.3s ease;
+}
+
+.hero-nav a:hover {
+    color: #996633;
+}
+
+.brand-name {
+    font-family: 'Noto Sans SC', serif;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;   
+}
+
+.portrait {
+    width: 180px;
+    height: audo;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.about p {
+    margin: 20px 0;
+    font-size: 1rem;
+    font-family: 'Noto Sans SC', serif;
+}
+
+@media (max-width: 768px) {
+  .hero-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand-name {
+    font-size: 0.9rem
+  }
+
+  .content {
+    padding: 60px 16px;
+  }
+
+  .about {
+    font-size: 1.4rem;
+  }
+}
