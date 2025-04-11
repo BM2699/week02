@@ -29,6 +29,7 @@ html {
     height: auto;
     display: block;
     transform: translateY(-5%);
+    transform:scale(+0.9);
 }
 
 .hero-nav {
@@ -46,7 +47,7 @@ html {
      font-weight: 500;
      text-decoration: none;
         color: #000;
-        font-size: 5rem;
+        font-size: 4rem;
         letter-spacing: 0.05em;
         transition: all 0.3s ease;
 }
