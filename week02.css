@@ -58,7 +58,6 @@ html {
 .brand-name {
     position: absolute;
     left: 50%;
-    transform: trnaslateX(-50%);
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
     font-size: 1.7rem;
