@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -73,7 +74,7 @@ html {
 }
 
 .about {
-    background-color: #f6d4b7
+    background-color: #f6d4b7;
     scroll-snap-align: start;
 }
 .content {
@@ -84,8 +85,11 @@ html {
 }
 
 .about h2 {
+    font-family: 'Noto Sans SC', serif;
+    font-weight: 200;
     font-size: 2rem;
     margin-bottom: 20px;
+
 }
 
 .portrait {
@@ -95,6 +99,8 @@ html {
 }
 
 .about p {
+    font-family: 'Noto Sans SC', serif;
+    font-weight: 100;
     max-width: 600px;
     margin: 16px auto;
     font-size: 1.2rem;
