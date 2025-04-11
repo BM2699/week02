@@ -43,21 +43,22 @@ html {
     align-items: center;
     padding: 0 40px;
     z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.hero-footer.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .hero-link {
     font-family: 'Roboto Mono', monospace;
-    font-style: bold;
     font-size: 4rem;
     font-weight: 500;
     text-decoration: none;
     color: #000;
     transition: color 0.3s ease;
     padding: 0 20px;
-}
-
-.spacer {
-    flex: 1;
 }
 
 .brand-name {
@@ -73,6 +74,7 @@ html {
     color: #996633;
 }
 
+
 .about {
     min-height: 100vh;
     padding-top: 60px;
@@ -84,6 +86,24 @@ html {
     background-color: #f6d4b7;
     scroll-snap-align: start;
 }
+
+.about-nav {
+    position: sticky;
+    top: 0;
+    background-color: #f6d4b7;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+}
+
+.about-nav.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .content {
     max-width: 800px;
     margin: 0 auto;
@@ -127,8 +147,17 @@ html {
   .content {
     padding: 60px 16px;
   }
+}
 
-  .about {
-    font-size: 1.4rem;
-  }
+.about-nav a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.about-nav a:hover {
+    color: #996633;
 }
