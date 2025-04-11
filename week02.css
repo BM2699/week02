@@ -46,7 +46,7 @@ html {
 
 
 .hero-image {
-    width: 120%;
+    width: 105%;
     height: auto;
     display: block;
     transform: translateY(-15%) scale(1.05);
@@ -91,7 +91,7 @@ html {
     padding: 0;
     margin: 0;
     display: inline-block;
-
+    white-space: nowrap;
 }
 
 .brand-name:hover {
