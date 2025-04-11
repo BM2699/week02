@@ -34,11 +34,24 @@ html {
 .hero-footer {
     position: absolute;
     bottom: 40px;
-    left: 40px;
-    right: 40px;
+    left: 0px;
+    right: 100px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
     z-index: 2;
+}
+
+.brand-name {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Noto Sans SC', serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    text-align: center;
+    z-index: 3;
 }
 
 .hero-link {
@@ -55,15 +68,6 @@ html {
     color: #996633;
 }
 
-.brand-name {
-    position: absolute;
-    left: 50%;
-    font-family: 'Noto Sans SC', serif;
-    font-weight: 200;
-    font-size: 1.7rem;
-    text-align: center;
-    margin: 0 auto;
-}
 
 .content {
     max-width: 800px;
