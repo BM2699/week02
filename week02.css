@@ -21,7 +21,7 @@ html {
 
 .hero-section,
 .about {
-    min-height: 100vh;
+    min-height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,10 +30,12 @@ html {
     padding: 40px 20px;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+    background-color: #f6d4b7;
     /* position: relative; */
-    width: 100vw;
+    /* width: 100vw; */
     /* overflow: hidden; */
 }
+
 
 .hero-image {
     width: 100%;
@@ -79,16 +81,6 @@ html {
 }
 
 
-.about {
-    min-height: 100vh;
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #f6d4b7;
-}
 
 .content {
     max-width: 800px;
@@ -120,7 +112,7 @@ html {
 }
 
 #about {
-    scroll-margin-top: -90px;
+    scroll-margin-top: 0px;
 }
 
 
