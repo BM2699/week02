@@ -44,3 +44,23 @@
 
 </body>
 </html>
+
+<script>
+    let scrollPosition = 0;
+    let scrollTarget = 0;
+    const friction = 0.1;
+
+    function smoothScroll() {
+        scrollPosition += (scrollTarget - scrollPosition) * friction;
+        window.scrollTo(0, scrollPosition);
+
+        if (Math.abs(scrollTarget - scrollPosition) > 0.5) {
+            requestAnimationFrame(smoothScroll);
+        }
+    }
+
+    window.addEventListener('wheel', (event) => {
+        scrollTarget += event.deltaY;
+        requestAnimationFrame(smoothScroll);
+    });
+</script>
