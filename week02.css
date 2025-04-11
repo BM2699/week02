@@ -45,6 +45,7 @@ html {
 .hero-link {
     font-family: 'Roboto Mono', monospace;
     font-style: bold;
+    font-size: 3rem;
     font-weight: 500;
     text-decoration: none;
     color: #000;
