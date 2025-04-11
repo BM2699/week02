@@ -41,23 +41,17 @@ html {
     align-items: center;
     z-index: 2;
 }
-.hero-nav {
-    display: flex;
-    gap: 20px;
+
+.hero-link {
+    font-family: 'Roboto Mono', monospace;
+    font-style: bold;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
 }
 
-.hero-nav a {
-     font-family: 'Roboto Mono', monospace;
-     font-style: bold;
-     font-weight: 500;
-     text-decoration: none;
-        color: #000;
-        font-size: 4rem;
-        letter-spacing: 0.005rem;
-        transition: all 0.3s ease;
-}
-
-.hero-nav a:hover {
+.hero-link:hover {
     color: #996633;
 }
 
@@ -90,9 +84,8 @@ html {
 }
 
 @media (max-width: 768px) {
-  .hero-nav {
+  .hero-footer {
     flex-direction: column;
-    align-items: center;
     gap: 10px;
   }
 
