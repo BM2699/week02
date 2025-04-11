@@ -19,15 +19,23 @@ html {
     scroll-behavior: smooth;
 }
 
+.scroll-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 .hero-section,
 .about {
-    min-height: calc(100vh - 120px);
+    /* min-height: calc(100vh - 120px); */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 40px 20px;
+    padding-bottom: 120px;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     background-color: #f6d4b7;
@@ -106,7 +114,7 @@ html {
 .about p {
     font-family: 'Noto Sans SC', serif;
     font-weight: 100;
-    max-width: 600px;
+    max-width: 800px;
     margin: 16px auto;
     font-size: 1.2rem;
 }
