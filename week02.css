@@ -35,7 +35,8 @@ html {
     position: absolute;
     bottom: 40px;
     left: 0px;
-    right: 100px;
+    right: 0px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +52,7 @@ html {
     text-decoration: none;
     color: #000;
     transition: color 0.3s ease;
+    padding: 0 20px;
 }
 
 .spacer {
@@ -62,7 +64,7 @@ html {
     font-weight: 200;
     font-size: 1.7rem;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 
