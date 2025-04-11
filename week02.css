@@ -45,7 +45,7 @@ html {
 .hero-link {
     font-family: 'Roboto Mono', monospace;
     font-style: bold;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 500;
     text-decoration: none;
     color: #000;
@@ -59,7 +59,7 @@ html {
 .brand-name {
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 auto;
 }
