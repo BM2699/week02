@@ -78,7 +78,7 @@ html {
 .brand-name {
     position: absolute;
     left: 50%;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
 
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
