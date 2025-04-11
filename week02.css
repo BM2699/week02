@@ -46,7 +46,7 @@ html {
 
 
 .hero-image {
-    width: 105%;
+    width: 110%;
     height: auto;
     display: block;
     transform: translateY(-15%) scale(1.05);
@@ -78,7 +78,7 @@ html {
 .brand-name {
     position: absolute;
     left: 50%;
-    transform: translateX(-55%);
+    transform: translateX(-60%);
 
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
