@@ -46,7 +46,7 @@ html {
 
 
 .hero-image {
-    width: 100%;
+    width: 120%;
     height: auto;
     display: block;
     transform: translateY(-15%) scale(1.05);
@@ -76,17 +76,21 @@ html {
 }
 
 .brand-name {
-    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
     font-size: 1.7rem;
     /* text-align: center; */
-    margin-left: 45px;
+    /* margin-left: 55px; */
     color: #000;
     text-decoration: none;
     line-height: 1;
     padding: 0;
     margin: 0;
+    display: inline-block;
 
 }
 
