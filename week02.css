@@ -21,11 +21,18 @@ html {
 
 .hero-section,
 .about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
     scroll-snap-align: start;
-    position: relative;
+    scroll-snap-stop: always;
+    /* position: relative; */
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .hero-image {
@@ -37,13 +44,11 @@ html {
 
 .hero-footer {
     position: fixed;
-    bottom: 40px;
-    left: 40px;
-    right: 40px;
-    padding: 20px 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 60px;
     background-color: #f6d4b7;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
