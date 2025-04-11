@@ -80,7 +80,7 @@ html {
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
     font-size: 1.7rem;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 60px;
     color: #000;
     text-decoration: none;
