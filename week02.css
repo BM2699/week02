@@ -29,7 +29,7 @@ html {
     width: 100%;
     height: auto;
     display: block;
-    transform: translateY(-8%) scale(1.1);
+    transform: translateY(-5%) scale(1.1);
 }
 
 .hero-footer {
@@ -74,6 +74,13 @@ html {
 }
 
 .about {
+    min-height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #f6d4b7;
     scroll-snap-align: start;
 }
