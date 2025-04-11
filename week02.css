@@ -83,6 +83,9 @@ html {
     margin-left: 55px;
 }
 
+.brand-name:hover {
+    color: #996633;
+}
 
 .hero-link:hover {
     color: #996633;
