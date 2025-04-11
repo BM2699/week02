@@ -75,7 +75,7 @@ html {
     padding: 0 20px;
 }
 
-.brand-name {
+.brand-name h1{
     font-family: 'Noto Sans SC', serif;
     font-weight: 200;
     font-size: 1.7rem;
@@ -87,10 +87,10 @@ html {
     color: #996633;
 }
 
+
 .hero-link:hover {
     color: #996633;
 }
-
 
 
 .content {
