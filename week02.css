@@ -28,6 +28,7 @@ html {
     width: 100%;
     height: auto;
     display: block;
+    transform: translateY(-20%);
 }
 
 .hero-nav {
@@ -42,10 +43,10 @@ html {
 
 .hero-nav a {
      font-family: 'Roboto Mono', monospace;
-     font-weight: 400;
+     font-weight: 500;
      text-decoration: none;
         color: #000;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 0.05em;
         transition: all 0.3s ease;
 }
