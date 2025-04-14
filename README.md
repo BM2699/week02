@@ -1,0 +1,29 @@
+# DWD Week02 - JIRAN CERAMICS
+
+A prototype website showcasing the work of Jiran Ceramics, a Brooklyn-based ceramic studio founded by my friend Jiran Zhai.
+
+## Table of Contents
+- [About](#about)
+- [Featrues](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+
+## About
+Jiran Ceramics wesbtie is a proejct that highlights the artistry and philosophy of Jessie (Jiran) Zhai, a ceramic artist based in Brooklyn.
+
+## Featrues
+- **Hero Section**: Main header with a hero image and navigation links. Asset is created in Figma with photographs provided by Jessie Zhai.
+- **About Section**: Bio about the artist and her mission.
+- **Smooth Scrolling**: Smooth transitions between sections for a better user experience.
+- **Hero Footer**: Interactive feature -- when user click on SHOP and JIRAN CERAMICS, the website leads user to the designated section.
+
+## Technologies Used
+- **HTML5**: For the structure of the website.
+- **CSS 3**: For styling and layout.
+- **Javascript**: For smooth scrolling and interactivity of hero footer.
+- **Figma**: UI/UX and Hero Image design.
+
+## Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/BM2699/week02.git
