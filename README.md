@@ -21,6 +21,7 @@ Jiran Ceramics wesbtie is a proejct that highlights the artistry and philosophy 
 - **About Section**: Bio about the artist and her mission.
 - **Smooth Scrolling**: Smooth transitions between sections for a better user experience.
 - **Hero Footer**: Interactive feature -- when user click on SHOP and JIRAN CERAMICS, the website leads user to the designated section.
+- **Responsive Layout**: The website is fully responsive and adapts to different screen sizes. However, it does look best on desktop!
 
 ## Technologies Used
 - **HTML5**: For the structure of the website.
