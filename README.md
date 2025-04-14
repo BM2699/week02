@@ -2,9 +2,14 @@
 
 A prototype website showcasing the work of Jiran Ceramics, a Brooklyn-based ceramic studio founded by my friend Jiran Zhai.
 
+# Live Website
+
+Check out the live website here: [https://bm2699.github.io/week02/]
+
 ## Table of Contents
+- [Live Website](#live-website)
 - [About](#about)
-- [Featrues](#features)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 
@@ -20,7 +25,6 @@ Jiran Ceramics wesbtie is a proejct that highlights the artistry and philosophy 
 ## Technologies Used
 - **HTML5**: For the structure of the website.
 - **CSS 3**: For styling and layout.
-- **Javascript**: For smooth scrolling and interactivity of hero footer.
 - **Figma**: UI/UX and Hero Image design.
 
 ## Setup
