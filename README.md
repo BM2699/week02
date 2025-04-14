@@ -27,6 +27,8 @@ Jiran Ceramics wesbtie is a proejct that highlights the artistry and philosophy 
 - **HTML5**: For the structure of the website.
 - **CSS 3**: For styling and layout.
 - **Figma**: UI/UX and Hero Image design.
+- **Javascript**: For smooth scrolling and interactive hero footer.
+- **Google Fonts**: For typography (Noto Serif SC and Roboto Mono).
 
 ## Setup
 1. Clone the repository:
