@@ -11,7 +11,7 @@ A prototype website showcasing the work of Jiran Ceramics, a Brooklyn-based cera
 ## About
 Jiran Ceramics wesbtie is a proejct that highlights the artistry and philosophy of Jessie (Jiran) Zhai, a ceramic artist based in Brooklyn.
 
-## Featrues
+## Features
 - **Hero Section**: Main header with a hero image and navigation links. Asset is created in Figma with photographs provided by Jessie Zhai.
 - **About Section**: Bio about the artist and her mission.
 - **Smooth Scrolling**: Smooth transitions between sections for a better user experience.
