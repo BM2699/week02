@@ -21,8 +21,8 @@ html {
 
 .scroll-container {
     scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+    /* overflow-y: scroll; */
+    height: 120vh;
 }
 
 .hero-section,
@@ -144,4 +144,62 @@ html {
   .content {
     padding: 60px 16px;
   }
+}
+
+.shop-section {
+    min-height: 100vh;
+    padding: 40px 20px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6d4b7;
+    text-align: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.shop-section h2 {
+    font-family: 'Noto Sans SC', serif;
+    font-size: 1.5rem;
+    font-weight: 250;
+    margin-top: 20px;
+    margin-bottom:16px;
+}
+
+.shop-intro {
+    font-family: 'Noto Sans SC', serif;
+    font-weight: 100;
+    max-width: 600px;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+    color: #000;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card img {
+    width: 100%;
+    height: 33vh;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-family: 'Noto Sans SC', serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    /* margin-bottom: 10px; */
+}
+
+.product-card p {
+    font-family: 'Noto Sans SC', serif;
+    font-size: 1rem;
+    font-weight: 180;
+    margin-bottom: 10px;
 }

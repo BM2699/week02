@@ -36,7 +36,17 @@
      </p>
   </section>
  </main>
- </div>
+
+ <section id="shop" class="shop-section">
+    <h2>Shop</h2>
+    <p class="shop-intro">
+        All ceramic pieces are carefully handmade in our studio. These items are made to order unless listed in stock.<br><br>
+        To place an order or for commision inquireies, pleas email at <a href="mailto:jz3407@nyu.edu">jz3407@nyu.edu</a><br><br>
+        All sales are final.
+    </p>
+    <div id="product-list" class="product-grid"></div>
+</section>
+</div>
 
  <div class = "hero-footer">
     <a href="#shop" class="hero-link left">SHOP</a>
@@ -53,21 +63,44 @@
 </html>
 
 <script>
-    let scrollPosition = 0;
-    let scrollTarget = 0;
-    const friction = 0.1;
+    // let scrollPosition = 0;
+    // let scrollTarget = 0;
+    // const friction = 0.1;
 
-    function smoothScroll() {
-        scrollPosition += (scrollTarget - scrollPosition) * friction;
-        window.scrollTo(0, scrollPosition);
+    // function smoothScroll() {
+    //     scrollPosition += (scrollTarget - scrollPosition) * friction;
+    //     window.scrollTo(0, scrollPosition);
 
-        if (Math.abs(scrollTarget - scrollPosition) > 0.5) {
-            requestAnimationFrame(smoothScroll);
-        }
-    }
+    //     if (Math.abs(scrollTarget - scrollPosition) > 0.5) {
+    //         requestAnimationFrame(smoothScroll);
+    //     }
+    // }
 
-    window.addEventListener('wheel', (event) => {
-        scrollTarget += event.deltaY;
-        requestAnimationFrame(smoothScroll);
-    });
+    // window.addEventListener('wheel', (event) => {
+    //     scrollTarget += event.deltaY;
+    //     requestAnimationFrame(smoothScroll);
+    // });
+
+    fetch('/api/products')
+        .then(res => res.json())
+        .then(data => {
+            const productList = document.getElementById('product-list');
+            const firstThree = data.slice(0,3);
+
+            console.log('Products from API:', firstThree);
+            firstThree.forEach(product => {
+                const card = document.createElement('div');
+                card.classList.add('product-card');
+                card.innerHTML= `
+                    <img src="${product.image}" alt="${product.name}" />
+                    <h3>${product.name}</h3>
+                    <p>${product.dimension}</p>
+                    <p><strong>$${product.price}</strong></p>
+                `;
+                productList.appendChild(card);
+            });
+        })
+        .catch(err => {
+            console.error('Error loading products:', err);
+        });
 </script>
